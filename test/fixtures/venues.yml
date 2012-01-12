@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  meetup_id: 1
+  zip: 1
+  lon: 1.5
+  name: MyString
+  state: MyString
+  address: MyString
+  lat: 1.5
+  city: MyString
+  country: MyString
+
+two:
+  meetup_id: 1
+  zip: 1
+  lon: 1.5
+  name: MyString
+  state: MyString
+  address: MyString
+  lat: 1.5
+  city: MyString
+  country: MyString

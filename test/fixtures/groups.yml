@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  meetup_id: 1
+  name: MyString
+  urlname: MyString
+  group_lat: 1.5
+  group_lon: 1.5
+
+two:
+  meetup_id: 1
+  name: MyString
+  urlname: MyString
+  group_lat: 1.5
+  group_lon: 1.5

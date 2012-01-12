@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  meetup_id: 1
+  starting_time: 2012-01-11 18:22:42
+  yes_rsvp_count: 1
+  event_url: MyString
+  description: MyText
+  name: MyString
+
+two:
+  meetup_id: 1
+  starting_time: 2012-01-11 18:22:42
+  yes_rsvp_count: 1
+  event_url: MyString
+  description: MyText
+  name: MyString
