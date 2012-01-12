@@ -11,23 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120112023055) do
+ActiveRecord::Schema.define(:version => 20120112033353) do
 
   create_table "events", :force => true do |t|
-    t.integer  "meetup_id"
-    t.datetime "starting_time"
-    t.integer  "yes_rsvp_count"
-    t.string   "event_url"
+    t.integer  "meetup_id",      :null => false
+    t.datetime "starting_time",  :null => false
+    t.integer  "yes_rsvp_count", :null => false
+    t.string   "event_url",      :null => false
     t.text     "description"
-    t.string   "name"
+    t.string   "name",           :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "groups", :force => true do |t|
-    t.integer  "meetup_id"
-    t.string   "name"
-    t.string   "urlname"
+    t.integer  "meetup_id",  :null => false
+    t.string   "name",       :null => false
+    t.string   "urlname",    :null => false
     t.float    "group_lat"
     t.float    "group_lon"
     t.datetime "created_at"
@@ -35,14 +35,14 @@ ActiveRecord::Schema.define(:version => 20120112023055) do
   end
 
   create_table "venues", :force => true do |t|
-    t.integer  "meetup_id"
+    t.integer  "meetup_id",  :null => false
     t.integer  "zip"
     t.float    "lon"
-    t.string   "name"
-    t.string   "state"
-    t.string   "address"
+    t.string   "name",       :null => false
+    t.string   "state",      :null => false
+    t.string   "address",    :null => false
     t.float    "lat"
-    t.string   "city"
+    t.string   "city",       :null => false
     t.string   "country"
     t.datetime "created_at"
     t.datetime "updated_at"
